@@ -1,9 +1,13 @@
 //Class Name of Class
 
 class Monitor{
+  //Attributes, Properties
+
   /*String companyName = 'SAMSUNG';
   String model = 'A51';
    */
+  static const String sample = 'Sample-Data';
+  static const String abc = 'ABC';
   String companyName = '';
   String model = '';
 
@@ -23,6 +27,10 @@ class Monitor{
     void printModelName(){
       //print(companyName);
       print(model);
+  }
+
+  static String getSampleData(){
+    return 'dummy';
   }
 
   //String _internalHardwareNo = 'uyrykru9009';

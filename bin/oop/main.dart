@@ -1,6 +1,7 @@
-import 'dart:mirrors';
+//import 'dart:mirrors';
 
 import 'class_object.dart';
+import 'person.dart';
 
 //Encapsulation Concept
 
@@ -8,7 +9,7 @@ import 'class_object.dart';
 void main(){
   // Instance/Object: ClassName object-name = className();
 
-  Monitor myMonitor = Monitor('SAMSUNG', 'MK37689238');
+  /*Monitor myMonitor = Monitor('SAMSUNG', 'MK37689238');
   print(myMonitor.companyName);
   print(myMonitor.model);
 
@@ -19,6 +20,11 @@ void main(){
   hasanMonitor.printModelName();
   hasanMonitor.companyName = 'NOKIA';
   print(hasanMonitor.companyName);
+  print(Monitor.sample);
+  print(Monitor.getSampleData());
+  print(Monitor.abc);
+
+
   //hasanMonitor.companyName;
 
 
@@ -27,4 +33,8 @@ void main(){
 
   //This is private. If we use underscore then it will be private
   //hasanMonitor._internalHardwareNo;
+   */
+
+  person shakib = person(name: 'Shakib Al Hasan', address: 'Dhaka', age: 36);
+  shakib.printName();
 }
