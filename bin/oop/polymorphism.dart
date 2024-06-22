@@ -24,12 +24,22 @@ class SalmanKhan extends khan {
   }
 }
 
+class SaifAliKhan extends khan{
+  @override
+  void printMyName() {
+    print('My name is Saif Ali khan');
+  }
+
+}
+
 void main(){
   khan abc = AmirKhan();
   khan SRK = SahrukhKhan();
   khan SK = SalmanKhan();
+  khan SA = SaifAliKhan();
 
   abc.printMyName();
   SRK.printMyName();
   SK.printMyName();
+  SA.printMyName();
 }
