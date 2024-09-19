@@ -1,0 +1,20 @@
+name: crud_app
+description: A new Flutter project
+
+# Add SDK constraint to specify which version of Dart your project requires.
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Other dependencies
+  fluttertoast: ^8.0.9
+  http: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
